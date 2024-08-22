@@ -36,32 +36,3 @@ You can install all required packages using the `requirements.txt` file included
 ### **Install Dependencies**
 ```bash
 pip install -r requirements.txt
-
-## **Environment Variables**
-
-The project requires specific API keys and other environment variables to function correctly. These should be stored in a .env file in the root directory.
-
-
-## **Run the Streamlit App**
-
-streamlit run app.py
-After running the above command, the app will be available at http://localhost:8501/.
-
-## **Usage**
-Open the Streamlit App: After running the above command, the app will be available at http://localhost:8501/.
-Interact with the Chatbot: Use the input box to ask financial questions related to Apple's 10-K filings. The chatbot will retrieve and analyze relevant sections of the document to provide answers.
-Example Questions:
-"What was Apple's total revenue for the most recent fiscal year?"
-"How does Apple's net income compare to the previous year?"
-"What are the key risks highlighted in Apple's latest 10-K?"
-
-## **Project Structure**
-
-apple-10k-financial-chatbot/
-│
-├── app.py              # Main application file for running the Streamlit app
-├── requirements.txt    # List of dependencies required for the project
-├── .env                # Environment variables file (not included in the repository)
-├── README.md           # Project documentation
-└── data/
-    └── apple_10k.pdf   # PDF file containing Apple's 10-K filing (ensure proper file path)
